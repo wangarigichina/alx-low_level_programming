@@ -3,8 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/** betty style doc for function main goes there
- * This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative
+/**
+ * betty style doc for function main goes there
+ * This program will assign a random number to the variable n each time it is executed.
+ * Complete the source code in order to print whether the number stored in the variable n is positive or negative
  */
 int main(void)
 {
@@ -15,15 +17,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	  {
-	    printf("%i is positive\n", n);
+	   printf("%i is positive\n", n);
 	  }
 	else if (n == 0)
 	  {
-	    printf("%i is zero\n", n);
+	   printf("%i is zero\n", n);
 	  }
 	else if (n < 0)
 	  {
-	    printf("%i is negative\n", n);
+	   printf("%i is negative\n", n);
 	  }
 	return (0);
 }
