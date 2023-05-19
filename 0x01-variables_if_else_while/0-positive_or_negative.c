@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * main:  prints whether n is positive, zero or negative
+ * main -  prints whether n is positive, zero or negative
  * @n: random number
  * 
  * Description: This program will assign a random number
