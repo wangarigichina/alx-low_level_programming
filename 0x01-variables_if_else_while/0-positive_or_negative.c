@@ -6,7 +6,7 @@
 /**
  * main -  prints whether n is positive, zero or negative
  * @n: random number
- * 
+ *
  * Description: This program will assign a random number
  * to the variable n each time it is executed.
  * Return: 0
@@ -18,7 +18,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
+if (n > 0)
 	{
 	   printf("%i is positive\n", n);
 	}
