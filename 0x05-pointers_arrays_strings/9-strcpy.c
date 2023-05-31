@@ -10,7 +10,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int a  = 0;
+	int a = 0;
 
 	while (a >= 0)
 	{
@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src)
 
 		if (str[a] == '\0')
 			return (dest);
-		i++;
+		a++;
 	}
 	return (dest);
 }
