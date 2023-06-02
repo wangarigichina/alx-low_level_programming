@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 0_strcat - concatenates two strings
+ * _strcat - concatenates two strings
  * @src: second string to copy from
  * @dest: string to be overwritten
  * Description: concatenates src to end of dest
