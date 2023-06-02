@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncat - concatenates specified values from src to dest
@@ -13,7 +12,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int a = 0;
-	int b, n;
+	int b;
 
 	while (dest[a] != '\0')
 		a++;
