@@ -7,7 +7,7 @@
  * Return: string c
  **/
 
-char *leet(char *)
+char *leet(char *c)
 {
 	int a, b;
 	char *replace;
