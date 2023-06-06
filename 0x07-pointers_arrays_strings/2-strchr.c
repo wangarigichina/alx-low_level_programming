@@ -17,7 +17,7 @@ char *_strchr(char *src, char c)
 		return (NULL);
 	}
 
-	for (a = 0; src[a] != '\0'; i++)
+	for (a = 0; src[a] != '\0'; a++)
 	{
 		if (src[a] == c)
 		{
