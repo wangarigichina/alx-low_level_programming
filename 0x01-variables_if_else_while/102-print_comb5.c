@@ -5,9 +5,9 @@
  *Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
-      int tens;
+	int tens;
 	int ones;
 	int t;
 	int o;
@@ -16,7 +16,7 @@ int main (void)
 	{
 		for (ones = '0'; ones <= '9'; ones++)
 		{
-		 	for (t = tens; t <= '9'; t++) /*print second of pair*/
+			for (t = tens; t <= '9'; t++) /*print second of pair*/
 			{
 				for (o = ones + 1; o <= '9'; o++)
 				{
