@@ -9,7 +9,7 @@
  * Return: pointer to head of list
  */
 
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int n)
 {
 	listint_t *current, *new;
 
